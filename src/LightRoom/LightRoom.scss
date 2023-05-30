@@ -1,0 +1,43 @@
+.light-room {
+  box-shadow: 0 0 20px 1px #00000030;
+  aspect-ratio: 1/1;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #88888860;
+
+  & button {
+    padding: 5px;
+    box-sizing: content-box;
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #888;
+  }
+
+  &__tumbler {
+  }
+
+  &__header {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &__timer {
+    margin-left: auto;
+  }
+
+  &__selected {
+  }
+
+  &__header > label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  &__range {
+    width: 100%;
+  }
+}

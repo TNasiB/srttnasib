@@ -1,0 +1,14 @@
+.room-labels {
+  &__item {
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 1px #88888820;
+    color: #fff;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+}

@@ -1,0 +1,16 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  &__workplace {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    flex-grow: 1;
+    height: 1px;
+  }
+
+  &__workplace > * {
+    height: 100%;
+  }
+}
